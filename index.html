@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Information Form</title>
+</head>
+<body>
+    <h2>Create Account</h2>
+
+        <div>
+            <label for="Name">First Name*</label>
+            <input type="text" placeholder="enter your first name">
+            <label for="Name">Last Name</label>
+            <input type="text" placeholder="enter your last name">
+        </div>
+
+        <br>
+        <div>
+            <label for="email">Email Address*</label>
+            <input type="email" placeholder="example@gmail.com">
+        </div>
+
+        <br>
+        <div>
+            <label for="password">Password*</label>
+            <input type="password" placeholder="enter your password">
+            <label for="password">Comfirm Password*</label>
+            <input type="password" placeholder="enter your password again">
+        </div>
+
+
+        <br>
+        <div>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <p>Hobbies</p>
+            <input type="radio" name="select" id="hobby">
+            <label for="Music"> Music</label>
+            <input type="radio" name="select" id="hobby">
+            <label for="Sports"> Sports</label>
+            <input type="radio" name="select" id="hobby">
+            <label for="Travel"> Travel</label>
+            <input type="radio" name="select" id="hobby">
+            <label for="Movies"> Movies</label>
+        </div>
+
+        <br>
+        <div>
+            <label for="job">Source of Income</label>
+            <input type="text" placeholder="Employed">
+            <label for="income">Income</label>
+            <input type="range" >
+        </div>
+
+        <br>
+        <div>
+            <label for="pic"> Upload Profile Picture</label>
+            <input type="file" >
+            <label for="age">Age:</label>
+            <input type="number">
+        </div>
+
+        <br>
+        <div>
+            <label for="brith">Birthadate: </label>
+            <input type="date" >
+        </div>
+
+        <br>
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">-- Please select a country --</option>
+                <option value="cam">Cambodia</option>
+                <option value="oth">Other</option>
+            </select>
+        </div>
+
+        <hr>
+        <div>
+            <input type="checkbox" checked>
+            <label>Agree to Terms and Conditions</label>
+        </div>
+
+        <br>
+        <div>
+            <button type="submit">Create</button>
+        </div>
+    </form>
+
+</body>
+</html>
